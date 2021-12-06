@@ -43,12 +43,4 @@ class SinglyLinkedList {
         return pop;
     }
 }
- var singlyLinkedList = new SinglyLinkedList();
- singlyLinkedList.push(5);
- singlyLinkedList.push(10);
- singlyLinkedList.push(15);
- console.log(singlyLinkedList.pop().val);
- console.log(singlyLinkedList.pop().val);
- console.log(singlyLinkedList.pop().val);
- console.log(singlyLinkedList.pop());
 
